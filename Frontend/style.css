@@ -1,0 +1,287 @@
+* 
+.body{
+    /* iPhone 13 Pro Max - 14 */
+
+position: relative;
+width: 428px;
+height: 926px;
+
+background: linear-gradient(180deg, #617663 0%, rgba(149, 203, 154, 0.09375) 99.99%, rgba(97, 118, 99, 0) 100%);
+filter: drop-shadow(0px 4px 4px rgba(207, 0, 0, 0.25));
+border: 10px solid #617663;
+box-sizing: border-box;
+
+
+}
+
+.growth-image {
+    position: absolute;
+    width: 409px;
+    height: 236px;
+    left: 0px;
+    top: 450px;
+    
+  }
+.background{
+    /* Rectangle 2 */
+
+
+position: absolute;
+width: 428px;
+height: 926px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, #617663 0%, rgba(149, 203, 154, 0.09375) 99.99%, rgba(97, 118, 99, 0) 100%);
+filter: drop-shadow(0px 4px 4px rgba(207, 0, 0, 0.25));
+}
+.progress {
+    /* Your Progress at a glance */
+
+
+position: absolute;
+width: 368px;
+height: 122px;
+left: 30px;
+top: 187px;
+
+font-family: Cabin VF Beta;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #74966C;
+
+}
+
+
+.image-main{
+
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #ffffff;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: Cabin VF Beta;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #eeeded;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+      
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    position: absolute;
+    width: 200px;
+    height: 916px;
+    left: 9px;
+    top: 12px;
+    
+    background: #FFFFFF;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    text-align: left;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #082203;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+  .welcome {
+    position: absolute;
+    width: 368px;
+    height: 250px;
+    left: 30px;
+    top: 117px;
+    
+    font-family: Cabin VF Beta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    
+    color: #082203;
+    
+
+  }
+ 
+  
+  .pearl {
+      /* Group 4 */
+
+
+position: absolute;
+width: 360px;
+height: 113px;
+left: 34px;
+top: 333px;
+
+  }
+.title1{
+  position: absolute;
+width: 560px;
+height: 122px;
+left: 65px;
+top: 86px;
+
+font-family: Cabin VF Beta;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+  
+.basic1{
+    position: absolute;
+width: 560px;
+height: 79px;
+left:-66px;
+top: 193px;
+
+background: url(https://www.youtube.com/embed/3ctoSEQsY54);
+}
+
+.title2{
+
+  position: absolute;
+width: 368px;
+height: 150px;
+left: 56px;
+top: 295px;
+
+font-family: Cabin VF Beta;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #6D6A6A;
+
+}
+
+.intermediate1{
+
+    /* insure 1 */
+
+
+position: absolute;
+width: 560px;
+height: 79px;
+left: -66px;
+top: 405px;
+
+background: url(insure.jpg);
+}
+
+.title3{
+
+  position: absolute;
+width: 368px;
+height: 150px;
+left: 56px;
+top: 512px;
+
+font-family: Cabin VF Beta;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #474545;
+
+}
+
+.advanced1{
+
+   /* family-insurance-concept-with-parents-and-kids-vector-27257341 4 */
+
+
+position: absolute;
+width: 560px;
+height: 79px;
+left: -66px;
+top: 610px;
+
+background: url(family-insurance-concept-with-parents-and-kids-vector-27257341.jpg); 
+}
+
+h1 {
+  color: #082203;
+  text-align: center;
+  font-family: Cabin VF Beta;
+
+}
+
+.content {
+color: white;
+text-align: center;
+font-family: Cabin VF Beta;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-family: Cabin VF Beta;
+}
