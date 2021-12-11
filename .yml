@@ -1,2 +1,17 @@
-- name: Telegram Message Notify
-  uses: appleboy/telegram-action@v0.1.1
+name: Notifier
+
+on:
+  push:
+    branches: [ main ]
+
+notifyTelegram:
+    runs-on: ubuntu-latest
+    steps:
+    - name: send custom message
+      uses: appleboy/telegram-action@master
+      with:
+        to: ${{ secrets.TELEGRAM_TO }}
+        token: ${{ secrets.TELEGRAM_TOKEN }}
+        message: |
+          The ${{ github.event_name }} event triggered final step.
+          echo This event is a pull request that had an assignee removed.
